@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move (array_in,index_in)
+def valid_move(array_in,index_in)
   if index_in.between?(0,8) && position_taken?
     true
   else array_in[index_in]=="X"||array[indexs]=="O"
