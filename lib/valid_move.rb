@@ -4,7 +4,7 @@ def valid_move (array_in,index_in)
     true
   else array_in[index_in]=="X"||array[indexs]=="O"
   end
-end    
+end
 
 
   # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
@@ -17,5 +17,3 @@ def position_taken?(array_in, index_in)
   end
 
 end
-
-
