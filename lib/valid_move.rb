@@ -1,8 +1,10 @@
 # code your #valid_move? method here
 def valid_move?(array_in,index_in)
-  if index_in.between?(0,8) && position_taken?(array_in,index_in)
-    true
-  end
+  if index_in.between?(0,8)
+    if array[indexs]==" "||array[indexs]==""||array[indexs]==nil
+      true
+    end
+    end
 end
 
 
